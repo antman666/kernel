@@ -209,7 +209,7 @@ index 87983e70f03f320fffae872a13f6befb34467204..a833a7a67ce799d1e0c015d667bd6690
  
 +config TCP_CONG_BBR2
 +	tristate "BBR2 TCP"
-+	default n
++	default m
 +	help
 +
 +	BBR2 TCP congestion control is a model-based congestion control
